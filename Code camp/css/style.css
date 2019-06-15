@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    color: #ccc;
+    font-family: 'Roboto Mono', monospace, Tahoma;
+}
+
+/* Utility */
+.btn {
+    padding: 10px 16px;
+    background-color: #006400;
+    color: #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    width: 60%;
+    align-self: center;
+    margin: 50px 0px;
+    text-decoration: none;
+    text-align: center;
+    transition: all .5s;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #ccc;
+}
+
+.btn-lg {
+    font-size: 2.2rem;
+    width: 450px;
+    transition: all .5s;
+}
+
+.btn-lg:hover {
+    color: #333;
+    background-color: #ccc;
+}
+
+/* Navbar */
+#navbar {
+    display: flex;
+    background-color: #006400;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar .nav-container {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .nav-logo {
+    font-size: 1.3rem;
+    padding: 5px 15px;
+}
+
+#navbar .nav-links {
+    list-style: none;
+}
+
+#navbar .nav-links li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#navbar .nav-links li:hover {
+    background: #333;
+    color: #000;
+}
+
+#navbar .nav-links li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* Main */
+#content {
+    display: flex;
+    justify-content: center;
+}
+
+#content .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#content .container .row {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-self: center;
+}
+
+#content .container .row .landing-heading {
+    display: block;
+    text-align: center;
+    margin: 21px 0 10px 0;
+    font-size: 3rem;
+    font-family: tahoma;
+    font-weight: 400;
+}
+
+#content .container .row .bar {
+    display: flex;
+}
+#content .container .row .box-1, #content .container .row .box-2 {
+    height: 40px;
+    width: 210px;
+    border: 1px solid #333;
+}
+
+#content .container .row .box-1 {
+    background: #006400;
+}
+
+#content .container .row .box-2 {
+    background: #fff;
+}
+
+#content .container .row p {
+    text-align: center;
+    font-weight: 200;
+}
+
+#content .container .row span {
+    font-weight: 800;
+}
+
+#content blockquote {
+    text-align: center;
+    font-size: 2rem;
+}
+#content .row footer {
+    text-align: center;
+    color: #777;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+#content .row .stats {
+    padding: 20px 0px;
+}
+
+#content .row .stats-text {
+    color: #8cca33;
+}
